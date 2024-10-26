@@ -13,23 +13,23 @@ const Sidenav = () => {
           New Feeds
         </h1>
         <hr className="mb-5" />
-        <Link className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
+        <Link to="/trending" className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
           <i className="ri-fire-fill"></i>
           <h4 className="text-2xl">Trending</h4>
         </Link>
-        <Link className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
+        <Link to="/popular" className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
           <i className="ri-gemini-fill"></i>
           <h4 className="text-2xl">Popular</h4>
         </Link>
-        <Link className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
+        <Link to="/movies" className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
           <i className="ri-film-fill"></i>
           <h4 className="text-2xl">Movies</h4>
         </Link>
-        <Link className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
+        <Link to="/tv" className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
           <i className="ri-tv-2-fill"></i>
           <h4 className="text-2xl">TV Shows</h4>
         </Link>
-        <Link className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
+        <Link to="/people" className="flex w-full hover:bg-[#6556cd] p-5 rounded-lg duration-300 items-center justify-start gap-5">
           <i className="ri-group-fill"></i>
           <h4 className="text-2xl">People</h4>
         </Link>
